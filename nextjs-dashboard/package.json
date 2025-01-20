@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "clean": "rm -rf .next node_modules && pnpm install",
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start"
